@@ -1,6 +1,6 @@
 
 if ARGV.length < 2
-	puts 'no input file provided.  pass as first arg to this script'
+	puts 'no input/output file provided'
 else
 
 	success = system( "html2haml " << ARGV[0] << " " << ARGV[1]);
