@@ -18,4 +18,4 @@ gem install haml
 gem install hpircot
 gem install ruby_parser
 
-html2hamljs {html file path} {desired haml file path}
+ruby html2hamljs.rb {html file path} {desired haml file path}
